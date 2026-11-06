@@ -100,7 +100,7 @@ export default function Gallery() {
                 </span>
                 {img.placeholder && (
                   <span className="absolute left-3 top-3 bg-black/70 px-2 py-1 text-[10px] font-bold uppercase tracking-widest text-muted">
-                    Sample image
+                   
                   </span>
                 )}
               </button>
@@ -166,7 +166,7 @@ export default function Gallery() {
               />
               <figcaption className="mt-3 flex items-center justify-between text-sm text-muted">
                 <span className="display text-xl text-white">{current.caption}</span>
-                {current.placeholder && <span>Sample image</span>}
+                {current.placeholder && <span></span>}
               </figcaption>
             </motion.figure>
           </motion.div>
