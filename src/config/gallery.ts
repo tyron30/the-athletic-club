@@ -103,7 +103,7 @@ export const GALLERY: GalleryImage[] = [
     caption: "The Atmosphere",
     width: 1000,
     height: 1000,
-    layout: "small",
+    layout: "wide",
     placeholder: true,
   },
   {
