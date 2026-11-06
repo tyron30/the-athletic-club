@@ -18,6 +18,9 @@ export const SITE = {
   // --- Facebook ------------------------------------------------------------
   // Official Facebook page. Change it here if the page URL ever changes.
   facebookUrl: "https://www.facebook.com/theathleticclub/",
+  // Opens a Messenger chat with the page (uses the page username from the URL above).
+  // Used by the "Get in touch" / "Inquire now" buttons.
+  messengerUrl: "https://m.me/theathleticclub",
 
   // --- Free fitness assessment registration (Google Form) -----------------
   assessmentFormUrl: "https://forms.gle/DHnKbQZY3NkFdTP18",

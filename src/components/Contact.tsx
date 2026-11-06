@@ -94,7 +94,10 @@ export default function Contact() {
             <h3 className="display text-4xl sm:text-5xl lg:col-span-6">
               QUESTIONS ABOUT MEMBERSHIP? TALK TO US.
             </h3>
-            <div className="flex flex-col gap-3 sm:flex-row lg:col-span-6 lg:justify-end">
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap lg:col-span-6 lg:justify-end">
+              <Button href={SITE.messengerUrl} external variant="dark">
+                MESSAGE US ON FACEBOOK
+              </Button>
               <Button href={SITE.phoneHref} variant="dark">
                 CALL {SITE.phoneDisplay}
               </Button>

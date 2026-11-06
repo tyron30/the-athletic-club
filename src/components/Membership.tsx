@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import { Eyebrow, Headline, Hl, Reveal, TiltCard, Button } from "./ui";
 import { PLANS, type Plan } from "../config/membership";
+import { SITE } from "../config/site";
 
 // Desktop layout: row 1 = 3 cards, row 2 = 2 wider cards (6-col grid)
 const COL_SPAN: Record<string, string> = {
@@ -74,8 +75,8 @@ function PlanCard({ plan }: { plan: Plan }) {
         )}
 
         <div className="mt-auto pt-8">
-          {/* Inquiry buttons lead to the contact options (phone / email / Facebook) */}
-          <Button href="#contact" variant={f ? "dark" : "primary"} block>
+          {/* Inquiry buttons open a Messenger chat with the Facebook page (set in config/site.ts) */}
+          <Button href={SITE.messengerUrl} external variant={f ? "dark" : "primary"} block>
             {plan.cta}
           </Button>
         </div>
