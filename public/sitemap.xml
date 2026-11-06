@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- TODO: replace REPLACE-WITH-YOUR-DOMAIN.com with your real domain -->
+  <!-- TODO: replace the-athletic-club-eight.vercel.app with your real domain -->
   <url>
-    <loc>https://REPLACE-WITH-YOUR-DOMAIN.com/</loc>
+    <loc>https://the-athletic-club-eight.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
